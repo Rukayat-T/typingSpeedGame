@@ -1,0 +1,40 @@
+.header{
+    text-align: center;
+    margin-top: 10vh;
+}
+.name{
+    font-size: 6vw;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+}
+.slo{
+    margin-top: 4vh;
+    font-size: 2vw;
+}
+.box{
+    border: 3px solid green;
+}
+.not-box{
+    border: 3px solid red;
+    height: 45vh;
+}
+.not-box .box-head{
+    text-align: center;
+    font-size: 4vw;
+    border-bottom: 2px solid black;
+}
+
+@media only screen and (max-width: 700px) {
+    .name {
+      font-size: 10vw;
+    }
+    .slo{
+        font-size: 4vw;
+    }
+  }
+
+  /* @media only screen and (max-width: 1000px) {
+    .name {
+      background-color: green;
+      font-size: 8vw;
+    }
+  } */
